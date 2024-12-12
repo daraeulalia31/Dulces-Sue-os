@@ -3,22 +3,22 @@ from ..components.mi_button import mi_button_p
 def seccion_pc()->rx.Component:
   return rx.desktop_only(
     rx.heading(
-      "Elige, Selecciona y Compra el mejor Ordenador",
+      "Bienvenido, Los mejores postres a buen precio",
       color="#eff9ff",
       size="8",
       align="center"
     ),
     rx.heading(
-      "con ",
-      rx.text.em("PC STORE",color="#090b0f"),
+      "en ",
+      rx.text.em("Dulces Sueños",color="#090b0f"),
       color="#eff9ff",
       size="9",
       align="center"
     ),
     rx.hstack(
-      rx.text(rx.text.em("",color="#92dafe",weight="bold")," ¡Bienvenido a Pc Store! Tu destino para la mejor selección de componentes y periféricos para PC. Ya sea que estés buscando construir tu PC de ensueño, actualizar tu sistema actual o simplemente necesitas un nuevo ratón o teclado, tenemos todo lo que necesitas. Explora nuestra amplia gama de productos de las marcas más reconocidas y disfruta de precios competitivos y un servicio al cliente excepcional..",size="5",color="#eff9ff",width="70vw"),
+      rx.text(rx.text.em("",color="#92dafe",weight="bold")," ¡En Dulces Sueños, horneamos felicidad. Cada bocado es una experiencia, creada con ingredientes de primera calidad y una pasión inigualable. Desde clásicos irresistibles hasta creaciones innovadoras, tenemos el postre perfecto para cualquier ocasión. ¡Visítanos y déjate llevar por el sabor!",size="5",color="#eff9ff",width="70vw"),
       rx.box(
-        rx.image(src="https://i.blogs.es/ed843e/superpc-ap/450_1000.jpeg",alt="Imagen de app"),
+        rx.image(src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPc4eeujGQ6FCLdqPGh-CbAV9VjGgRBH2WjA&s",alt="Imagen de app"),
         width="30vw"
       ),
       align="center"

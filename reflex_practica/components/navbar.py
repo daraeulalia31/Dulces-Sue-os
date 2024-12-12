@@ -38,7 +38,7 @@ def navbar()->rx.Component:
         align_items="center"
       )
     ),
-    bg="#000904",
+    bg="#db55fc",
     #rx.color("#E9F1FA", 3),
     padding="1em",
     # position="fixed",
